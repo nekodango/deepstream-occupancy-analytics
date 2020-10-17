@@ -61,3 +61,4 @@ config/peoplenet/resnet34_peoplenet_int8.txt
 config/peoplenet/resnet34_peoplenet_pruned.etlt
 config/peoplenet/resnet34_peoplenet_pruned.etlt_b1_gpu0_int8.engine
 /sample/
+/deepstream-test5-analytics
