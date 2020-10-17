@@ -1,0 +1,63 @@
+config/peoplenet/*
+
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+config/peoplenet/labels.txt
+config/peoplenet/resnet18_peoplenet_int8_dla.txt
+config/peoplenet/resnet18_peoplenet_int8.txt
+config/peoplenet/resnet18_peoplenet_pruned.etlt
+config/peoplenet/resnet34_peoplenet_int8_dla.txt
+config/peoplenet/resnet34_peoplenet_int8.txt
+config/peoplenet/resnet34_peoplenet_pruned.etlt
+config/peoplenet/resnet34_peoplenet_pruned.etlt_b1_gpu0_int8.engine
+/sample/
