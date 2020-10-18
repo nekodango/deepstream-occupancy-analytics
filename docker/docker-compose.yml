@@ -12,7 +12,7 @@ services:
         DISPLAY: ${DISPLAY}
       volumes:
         - /tmp/.X11-unix:/tmp/.X11-unix
-        - ./deepstream-occupancy-analytics:/opt/nvidia/deepstream/deepstream-5.0/sources/apps/sample_apps/deepstream-occupancy-analytics
+        - ../../deepstream-occupancy-analytics:/opt/nvidia/deepstream/deepstream-5.0/sources/apps/sample_apps/deepstream-occupancy-analytics
         - ../sample:/sample_mov
     zookeeper:
       image: wurstmeister/zookeeper
